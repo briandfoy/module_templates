@@ -27,19 +27,15 @@ $VERSION = '0.10_01';
 
 =cut
 
-sub new
-	{
-	
+sub new {
+
 	}
 	
 =item init
 
 =cut
 
-sub init
-	{
-	
-	}
+sub init {
 
 
 =back
