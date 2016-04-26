@@ -23,8 +23,6 @@ $VERSION = '0.001_01';
 
 =over 4
 
-=cut
-
 =item new
 
 =cut
@@ -32,13 +30,14 @@ $VERSION = '0.001_01';
 sub new {
 
 	}
-	
+
 =item init
 
 =cut
 
 sub init {
 
+	}
 
 =back
 
@@ -50,15 +49,22 @@ sub init {
 
 =head1 SOURCE AVAILABILITY
 
-This source is in Github
+This source is in Github:
+
+	http://github.com/briandfoy/[% module_dist FILTER lower %]/
 
 =head1 AUTHOR
 
-brian d foy, C<< <bdfoy@cpan.org> >>
+[% name %], C<< <[% email %]> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2008, brian d foy, All Rights Reserved.
+[% USE date %]
+Copyright (c) [% date.format(
+	time   = date.now,
+	format = '%Y',
+	)
+	%], brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 
