@@ -4,9 +4,7 @@
 
 =head1 The [% module %] module
 
-This is the I<README> for the L<[% module %]> Perl module. It allows
-you to create an array that continually cycles through its elements
-no matter what index you use.
+This is the I<README> for the L<[% module %]> Perl module.
 
 You're probably looking at this because you don't know where else to
 find what you're looking for. Read this once and you might never have
@@ -18,7 +16,7 @@ To read about L<[% module %]>, look at the embedded documentation
 in the module itself. Inside the distribution, you can format it
 with L<perldoc|http://perldoc.perl.org/perldoc.html>:
 
-	% perldoc lib/Tie/Cycle.pm
+	% perldoc lib/[% module_path %]
 
 If you have already installed the module, you can specify the module
 name instead of the file location:
@@ -27,7 +25,7 @@ name instead of the file location:
 
 You can read the documentation and inspect the meta data on one of the
 CPAN web interfaces, such as L<CPAN
-Search|http://search.cpan.org/dist/Tie-Cycle> or
+Search|http://search.cpan.org/dist/[% module_dist %]> or
 L<MetaCPAN|http://www.metacpan.org/module/[% module %]>:
 
 =over 4
