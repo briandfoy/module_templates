@@ -11,7 +11,7 @@ $VERSION = '0.10_01';
 
 =head1 NAME
 
-[% module %] - This is the description
+[% module %] - [% description %]
 
 =head1 SYNOPSIS
 
