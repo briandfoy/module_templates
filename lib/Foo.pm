@@ -66,7 +66,7 @@ Copyright (c) [% date.format(
 	)
 	%], brian d foy, All Rights Reserved.
 
-You may redistribute this under the same terms as Perl itself.
+You may redistribute this under the terms of the Artistic License 2.0.
 
 =cut
 
