@@ -51,7 +51,7 @@ sub init {
 
 This source is in Github:
 
-	http://github.com/briandfoy/[% module_dist FILTER lower %]/
+	http://github.com/briandfoy/[% module_dist FILTER lower %]
 
 =head1 AUTHOR
 
