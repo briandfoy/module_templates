@@ -4,10 +4,7 @@ use strict;
 use warnings;
 no warnings;
 
-use subs qw();
-use vars qw($VERSION);
-
-$VERSION = '0.001_01';
+our $VERSION = '0.001_01';
 
 =encoding utf8
 
