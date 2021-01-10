@@ -57,7 +57,7 @@ This source is in Github:
 =head1 COPYRIGHT AND LICENSE
 
 [% USE date %]
-Copyright (c) [% date.format(
+Copyright © [% date.format(
 	time   = date.now,
 	format = '%Y',
 	)
