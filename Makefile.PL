@@ -1,10 +1,10 @@
-package [% module %];
+package «== $module »;
 use strict;
 use warnings;
 
 =encoding utf8
 
-=head1 The build file for [% module %]
+=head1 The build file for «== $module »
 
 This build file is a modulino; it works as both a build script and
 a module.
@@ -40,11 +40,11 @@ use File::Spec::Functions qw(catfile);
 my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
-my $github    = 'https://github.com/briandfoy/[% repo_name %]';
+my $github    = 'https://github.com/briandfoy/«== $repo_name »';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
-	'MIN_PERL_VERSION' => '5.008',
+	'MIN_PERL_VERSION' => '5.020',
 
 	'NAME'          => $module,
 	'ABSTRACT_FROM' => $main_file,

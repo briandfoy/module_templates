@@ -1,5 +1,5 @@
 my @classes = qw(
-	[% module %]
+	«== $module »
 	);
 
 use Test::More;

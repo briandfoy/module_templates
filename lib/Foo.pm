@@ -1,4 +1,4 @@
-package [% module %];
+package «== $module »;
 use strict;
 
 use warnings;
@@ -10,11 +10,11 @@ our $VERSION = '0.001_01';
 
 =head1 NAME
 
-[% module %] - [% description %]
+«== $module » - «== $description »
 
 =head1 SYNOPSIS
 
-	use [% module %];
+	use «== $module »;
 
 =head1 DESCRIPTION
 
@@ -48,20 +48,15 @@ sub init {
 
 This source is in Github:
 
-	http://github.com/briandfoy/[% module_dist FILTER lower %]
+	http://github.com/briandfoy/«== $module_dist »
 
 =head1 AUTHOR
 
-[% name %], C<< <[% email %]> >>
+«== $name », C<< <«== $email »> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-[% USE date %]
-Copyright © [% date.format(
-	time   = date.now,
-	format = '%Y',
-	)
-	%], brian d foy, All Rights Reserved.
+Copyright © «== $year », brian d foy, All Rights Reserved.
 
 You may redistribute this under the terms of the Artistic License 2.0.
 
