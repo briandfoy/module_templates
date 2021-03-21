@@ -48,15 +48,15 @@ sub init {
 
 This source is in Github:
 
-	http://github.com/briandfoy/«== $module_dist »
+	http://github.com/briandfoy/«== $repo_name »
 
 =head1 AUTHOR
 
-«== $name », C<< <«== $email »> >>
+«== $author_name », C<< <«== $email »> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © «== $year », brian d foy, All Rights Reserved.
+Copyright © «= $year », «= $author_name », All Rights Reserved.
 
 You may redistribute this under the terms of the Artistic License 2.0.
 
