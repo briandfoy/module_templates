@@ -101,6 +101,6 @@ you wrote code that you didn't.
 
 Enjoy,
 
-brian d foy, briandfoy@pobox.com
+«= $author_name », «== $email »
 
 =cut
