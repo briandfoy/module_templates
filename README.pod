@@ -24,7 +24,7 @@ name instead of the file location:
 	% perldoc «== $module »
 
 You can read the documentation and inspect the meta data on
-L<MetaCPAN|http://www.metacpan.org/module/«== $module »>.
+L<MetaCPAN|http://www.metacpan.org/pod/«== $module »>.
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's
