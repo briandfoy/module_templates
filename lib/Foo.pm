@@ -48,7 +48,7 @@ sub init {
 
 This source is in Github:
 
-	http://github.com/briandfoy/«== $repo_name »
+	http://github.com/«== $github_user »/«== $repo_name »
 
 =head1 AUTHOR
 
